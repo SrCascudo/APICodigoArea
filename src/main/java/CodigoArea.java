@@ -121,6 +121,30 @@ public class CodigoArea {
         ca.regiao.add("Região Metropolitana - RJ");
         ca.regiao.add("Teresópolis - RJ");
         lista.add(ca);
+
+        //------------ Tocantins ---------------------
+        ca = new CodigoArea();
+        ca.estado = "Tocantins";
+        ca.ddd = "63";
+        ca.regiao.add("Abrange todo o Estado");
+        lista.add(ca);
+
+        //------------ Bahia ---------------------
+        ca = new CodigoArea();
+        ca.estado = "Bahia";
+        ca.ddd = "71";
+        ca.regiao.add("Salvador");
+        ca.regiao.add("Região Metropolitana");
+        lista.add(ca);
+
+        ca = new CodigoArea();
+        ca.estado = "Bahia";
+        ca.ddd = "73";
+        ca.regiao.add("Itabuna");
+        ca.regiao.add("Ilhéus");
+        ca.regiao.add("Região Metropolitana");
+        lista.add(ca);
+
         return lista;
     }
 }
