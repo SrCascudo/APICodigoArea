@@ -1,5 +1,6 @@
 import com.google.gson.Gson;
 import org.json.simple.JSONObject;
+import sun.nio.cs.UTF_8;
 
 import javax.json.JsonObject;
 import javax.json.JsonValue;
@@ -25,7 +26,6 @@ public class Service {
     @GET
     @Produces("text/plain")
     public String Index(){
-
-        return "Informe um Parâmetro";
+        return "Informe um Parametro";
     }
 }

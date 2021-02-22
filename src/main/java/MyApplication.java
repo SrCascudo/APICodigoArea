@@ -1,5 +1,3 @@
-import module.Cpf_Service;
-
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
@@ -11,7 +9,6 @@ public class MyApplication extends Application {
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
         h.add(Service.class);
-        h.add(Cpf_Service.class);
         return h;
     }
 }
