@@ -1,6 +1,5 @@
 import com.google.gson.Gson;
 import org.json.simple.JSONObject;
-import sun.nio.cs.UTF_8;
 
 import javax.json.JsonObject;
 import javax.json.JsonValue;
